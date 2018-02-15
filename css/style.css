@@ -1,0 +1,49 @@
+body,html
+{
+    height: 100%;
+    width: 100%;
+    font-family:"Arial", sans-serif;
+    font-size: 14px;
+    line-height: 130%;
+    position: relative;
+}
+.wrapper
+{
+    position: relative;
+    max-width: 100%;
+    min-width: 1000px;
+    font-family: "Arial";
+    box-sizing: border-box;
+    padding-bottom:;
+    min-height: 100%;
+    background-color: #fff;
+    color: #000;
+}
+header
+{
+    height: 556px;
+    max-width: 100%;
+    background-image: url(../image/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#strdoma
+{
+    color: #000;
+    margin-left: 649px;
+    margin-top: 107px;
+    display: inline-block;
+    font-size: 23px;
+    line-height: normal;
+}
+#kotedji
+{
+   margin-right: 217px;
+   display: block;
+   margin-left: 902px;
+   margin-top:15px ;
+   font-size: 23px;
+   line-height: normal; 
+   color: #000;
+}
