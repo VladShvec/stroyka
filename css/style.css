@@ -37,6 +37,27 @@ header
     font-size: 23px;
     line-height: normal;
 }
+#strdoma:hover
+{
+    background-color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    
+    height: 35px;
+    
+}
+:hover::before
+{
+    content: "";
+    width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #fff;
+    position: absolute;
+      
+    
+
+}
 #kotedji
 {
    display: inline-block;
@@ -45,6 +66,13 @@ header
    font-size: 23px;
    line-height: normal; 
    color: #000;
+}
+#kotedji:hover
+{
+    background-color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    
+    height: 35px;
 }
 #obor
 {
@@ -55,6 +83,13 @@ header
    line-height: normal; 
    color: #000;
 }
+#obor:hover
+{
+    background-color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    
+    height: 35px;
+}
 #repom
 {
    display: inline-block; 
@@ -63,6 +98,13 @@ header
    color: #000;
     margin-left:284px;
     margin-right: 400px;
+}
+#repom:hover
+{
+    background-color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    
+    height: 35px;
 }
 #strbani
 {
@@ -73,4 +115,11 @@ header
     margin-top: 58px;
     margin-left: 225px;
     
+}
+#strbani:hover
+{
+    background-color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    
+    height: 35px;
 }
