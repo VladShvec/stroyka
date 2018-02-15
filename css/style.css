@@ -21,6 +21,15 @@ body,html
     background-color: #fff;
     color: #000;
 }
+.in
+{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 120px;
+    padding-right: 120px;
+    
+}
 header
 {
     height: 556px;
@@ -253,4 +262,52 @@ header
     position: absolute;
     top:30px;
     left: 10%;
+}
+h1
+{
+    font-size: 37px;
+    line-height: normal;
+    color: #51a60c;
+    float: right;
+    text-transform: uppercase;
+    padding-bottom: 24px;
+}
+h1:after
+{
+content: '';
+clear: right;
+}
+li:before
+{
+    content: '-'
+}
+section ul 
+{
+padding-top: 107px;
+float: left;
+margin-right: 200px;
+}
+li
+{
+    padding-bottom: 18px;
+}
+li:hover
+{
+    text-decoration: underline;
+}
+.bigtext
+{
+    float: right;
+    
+    width: 500px;
+    height: 262px;
+    
+}
+.link  
+{
+    text-decoration: underline;
+}
+.link:cheaked
+{
+    color: #cc00cc;
 }
