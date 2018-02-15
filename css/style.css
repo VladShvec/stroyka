@@ -38,12 +38,13 @@ header
     display: inline-block;
     font-size: 23px;
     line-height: normal;
+    text-align: center;
 }
 #strdoma:hover
 {
     background-color: #fff;
-    border-radius: 5px 5px 5px 5px;
-    
+    border-radius: 10px 10px 10px 10px;
+    width: 278px;
     height: 35px;
     position: relative;
     
@@ -74,12 +75,13 @@ header
    font-size: 23px;
    line-height: normal; 
    color: #000;
+   text-align: center;
 }
 #kotedji:hover
 {
-    background-color: #fff;
-    border-radius: 5px 5px 5px 5px;
-    
+   background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    width: 178px;
     height: 35px;
     position: relative;
 }
@@ -104,12 +106,13 @@ header
    font-size: 23px;
    line-height: normal; 
    color: #000;
+   text-align: center;
 }
 #obor:hover
 {
-    background-color: #fff;
-    border-radius: 5px 5px 5px 5px;
-    
+   background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    width: 178px;
     height: 35px;
     position: relative;
 }
@@ -134,12 +137,13 @@ header
    color: #000;
     margin-left:284px;
     margin-right: 400px;
+    text-align: center;
 }
 #repom:hover
 {
     background-color: #fff;
-    border-radius: 5px 5px 5px 5px;
-    
+    border-radius: 10px 10px 10px 10px;
+    width: 278px;
     height: 35px;
     position: relative;
 }
@@ -164,13 +168,14 @@ header
     color:#000;
     margin-top: 35px;
     margin-left: 225px;
+    text-align: center;
     
 }
 #strbani:hover
 {
-    background-color: #fff;
-    border-radius: 5px 5px 5px 5px;
-    
+     background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    width: 278px;
     height: 35px;
     position: relative;
 }
@@ -195,12 +200,13 @@ header
    color: #000;
    margin-top: 128px;
     margin-left: 688px;
+    text-align: center;
 }
 #land:hover
 {
-    background-color: #fff;
-    border-radius: 5px 5px 5px 5px;
-    
+     background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    width: 178px;
     height: 35px;
     position: relative;
 }
@@ -220,7 +226,7 @@ header
 #kol
 {
    display: inline-block;
-   
+   text-align: center;
    font-size: 23px;
    line-height: normal; 
    color: #000;
@@ -230,8 +236,8 @@ header
 #kol:hover
 {
      background-color: #fff;
-    border-radius: 5px 5px 5px 5px;
-    
+    border-radius: 10px 10px 10px 10px;
+    width: 178px;
     height: 35px;
     position: relative;
 }
