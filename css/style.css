@@ -6,6 +6,8 @@ body,html
     font-size: 14px;
     line-height: 130%;
     position: relative;
+    
+    
 }
 .wrapper
 {
@@ -43,21 +45,27 @@ header
     border-radius: 5px 5px 5px 5px;
     
     height: 35px;
+    position: relative;
     
 }
-:hover::before
+#strdoma:hover::after
 {
     content: "";
     width: 0;
 	height: 0;
 	border-left: 0px solid transparent;
-	border-right: 10px solid transparent;
-	border-top: 10px solid #fff;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+    display: block;
     position: absolute;
+    top:30px;
+    left: 10%;
+    
       
     
 
 }
+
 #kotedji
 {
    display: inline-block;
@@ -73,6 +81,20 @@ header
     border-radius: 5px 5px 5px 5px;
     
     height: 35px;
+    position: relative;
+}
+#kotedji:hover::after
+{
+    content: "";
+    width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+    display: block;
+    position: absolute;
+    top:30px;
+    left: 10%;
 }
 #obor
 {
@@ -89,6 +111,20 @@ header
     border-radius: 5px 5px 5px 5px;
     
     height: 35px;
+    position: relative;
+}
+#obor:hover::after
+{
+    content: "";
+    width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+    display: block;
+    position: absolute;
+    top:30px;
+    left: 10%;
 }
 #repom
 {
@@ -105,6 +141,20 @@ header
     border-radius: 5px 5px 5px 5px;
     
     height: 35px;
+    position: relative;
+}
+#repom:hover::after
+{
+    content: "";
+    width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+    display: block;
+    position: absolute;
+    top:30px;
+    left: 10%;
 }
 #strbani
 {
@@ -122,4 +172,18 @@ header
     border-radius: 5px 5px 5px 5px;
     
     height: 35px;
+    position: relative;
+}
+#strbani:hover::after
+{
+    content: "";
+    width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+    display: block;
+    position: absolute;
+    top:30px;
+    left: 10%;
 }
