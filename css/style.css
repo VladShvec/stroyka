@@ -31,7 +31,7 @@ header
 #strdoma
 {
     color: #000;
-    margin-left: 649px;
+    margin-left: 635px;
     margin-top: 107px;
     display: inline-block;
     font-size: 23px;
@@ -39,11 +39,38 @@ header
 }
 #kotedji
 {
-   margin-right: 217px;
-   display: block;
-   margin-left: 902px;
+   display: inline-block;
+   margin-right: x;
    margin-top:15px ;
    font-size: 23px;
    line-height: normal; 
    color: #000;
+}
+#obor
+{
+   display: inline-block;
+   margin-left: 944px;
+   margin-top:18px ;
+   font-size: 23px;
+   line-height: normal; 
+   color: #000;
+}
+#repom
+{
+   display: inline-block; 
+   font-size: 23px;
+   line-height: normal; 
+   color: #000;
+    margin-left:284px;
+    margin-right: 400px;
+}
+#strbani
+{
+    display: inline-block;
+    font-size: 23px;
+    line-height: normal;
+    color:#000;
+    margin-top: 58px;
+    margin-left: 225px;
+    
 }
