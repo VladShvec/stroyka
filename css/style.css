@@ -162,7 +162,7 @@ header
     font-size: 23px;
     line-height: normal;
     color:#000;
-    margin-top: 58px;
+    margin-top: 35px;
     margin-left: 225px;
     
 }
@@ -176,6 +176,67 @@ header
 }
 #strbani:hover::after
 {
+    content: "";
+    width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+    display: block;
+    position: absolute;
+    top:30px;
+    left: 10%;
+}
+#land
+{
+    display: inline-block;
+   font-size: 23px;
+   line-height: normal; 
+   color: #000;
+   margin-top: 128px;
+    margin-left: 688px;
+}
+#land:hover
+{
+    background-color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    
+    height: 35px;
+    position: relative;
+}
+#land:hover::after
+ {
+    content: "";
+    width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+    display: block;
+    position: absolute;
+    top:30px;
+    left: 10%;
+}
+#kol
+{
+   display: inline-block;
+   
+   font-size: 23px;
+   line-height: normal; 
+   color: #000;
+   margin-top: 0px;
+    margin-left: 461px; 
+}
+#kol:hover
+{
+     background-color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    
+    height: 35px;
+    position: relative;
+}
+#kol:hover::after
+ {
     content: "";
     width: 0;
 	height: 0;
