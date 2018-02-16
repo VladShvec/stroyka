@@ -280,17 +280,18 @@ h1:after
 content: '';
 clear: right;
 }
-li:before
+.level1 > li:before
 {
-    content: '-'
+    content: '-';
 }
-section ul 
+
+section .level1
 {
 padding-top: 109px;
 float: left;
 margin-right: 50px;
 }
-li
+.level1 li
 {
     padding-bottom: 18px;
 }
@@ -313,4 +314,31 @@ li:hover
 .link:cheaked
 {
     color: #cc00cc;
+}
+section
+{
+   
+    height: 400px;
+}
+.op
+{
+    background-image: url(../image/opros.jpg);
+    float: right;
+    width: 419px;
+    height: 287px;
+}
+.level2
+{
+    margin-top: 64px;
+    width: 376px;
+    height: 217px;
+    float: left;
+    border: 1px solid grey;
+    border-radius: 10px 10px 10px 10px;
+    border-bottom: 6px solid #2c4098;
+    padding: 20px;
+}
+.level2 ul > li:before
+{
+    content: '* ';
 }
