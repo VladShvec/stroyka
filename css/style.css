@@ -23,11 +23,10 @@ body,html
 }
 .in
 {
-    max-width: 1300px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 120px;
-    padding-right: 120px;
+
     
 }
 header
@@ -211,7 +210,7 @@ header
    font-size: 23px;
    line-height: normal; 
    color: #000;
-   margin-top: 140px;
+   margin-top: 127px;
     margin-left: 688px;
     text-align: center;
     border-radius: 10px 10px 10px 10px;
