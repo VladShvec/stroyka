@@ -43,20 +43,19 @@ header
 {
     color: #000;
     margin-left: 635px;
-    margin-top: 107px;
+    margin-top: 88px;
     display: inline-block;
     font-size: 23px;
     line-height: normal;
     text-align: center;
-}
-#strdoma:hover
-{
-    background-color: #fff;
     border-radius: 10px 10px 10px 10px;
     width: 278px;
     height: 35px;
     position: relative;
-    
+}
+#strdoma:hover
+{
+    background-color: #fff;   
 }
 #strdoma:hover::after
 {
@@ -85,14 +84,15 @@ header
    line-height: normal; 
    color: #000;
    text-align: center;
+   border-radius: 10px 10px 10px 10px;
+   width: 178px;
+   height: 35px;
+   position: relative;
 }
 #kotedji:hover
 {
    background-color: #fff;
-    border-radius: 10px 10px 10px 10px;
-    width: 178px;
-    height: 35px;
-    position: relative;
+  
 }
 #kotedji:hover::after
 {
@@ -116,14 +116,14 @@ header
    line-height: normal; 
    color: #000;
    text-align: center;
+   border-radius: 10px 10px 10px 10px;
+   width: 178px;
+   height: 35px;
+   position: relative;
 }
 #obor:hover
 {
    background-color: #fff;
-    border-radius: 10px 10px 10px 10px;
-    width: 178px;
-    height: 35px;
-    position: relative;
 }
 #obor:hover::after
 {
@@ -144,17 +144,18 @@ header
    font-size: 23px;
    line-height: normal; 
    color: #000;
-    margin-left:284px;
-    margin-right: 400px;
+    margin-left:283px;
+    margin-right: 341px;
     text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    width: 276;
+    height: 35px;
+    position: relative;
+    
 }
 #repom:hover
 {
     background-color: #fff;
-    border-radius: 10px 10px 10px 10px;
-    width: 278px;
-    height: 35px;
-    position: relative;
 }
 #repom:hover::after
 {
@@ -175,18 +176,21 @@ header
     font-size: 23px;
     line-height: normal;
     color:#000;
-    margin-top: 35px;
+    margin-top:5px;
     margin-left: 225px;
     text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    width: 178px;
+    height: 50px;
+    position: relative;
+    text-align: left;
+    padding-bottom: 30px;
+    
     
 }
 #strbani:hover
 {
      background-color: #fff;
-    border-radius: 10px 10px 10px 10px;
-    width: 278px;
-    height: 35px;
-    position: relative;
 }
 #strbani:hover::after
 {
@@ -198,7 +202,7 @@ header
 	border-top: 20px solid #fff;
     display: block;
     position: absolute;
-    top:30px;
+    top:50px;
     left: 10%;
 }
 #land
@@ -207,17 +211,17 @@ header
    font-size: 23px;
    line-height: normal; 
    color: #000;
-   margin-top: 128px;
+   margin-top: 140px;
     margin-left: 688px;
     text-align: center;
-}
-#land:hover
-{
-     background-color: #fff;
     border-radius: 10px 10px 10px 10px;
     width: 178px;
     height: 35px;
     position: relative;
+}
+#land:hover
+{
+     background-color: #fff;
 }
 #land:hover::after
  {
@@ -240,15 +244,15 @@ header
    line-height: normal; 
    color: #000;
    margin-top: 0px;
-    margin-left: 461px; 
-}
-#kol:hover
-{
-     background-color: #fff;
+    margin-left: 488px; 
     border-radius: 10px 10px 10px 10px;
     width: 178px;
     height: 35px;
     position: relative;
+}
+#kol:hover
+{
+     background-color: #fff;
 }
 #kol:hover::after
  {
