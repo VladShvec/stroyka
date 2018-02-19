@@ -372,7 +372,8 @@ h3
 }
 .main_content
 {
-    
+    column-count: 1;
+    column-width: 428px;
 }
 .main_content h1
 {
@@ -388,7 +389,7 @@ h1:after
     content: '';
     clear: both;
 }
-.main_content .ftext
+.main_content .ftext , .rcol
 {
     width: 428px;
     
@@ -400,5 +401,9 @@ h1:after
     font-size: 24px;
     line-height: normal;
     color: #000;
+    float: right;
+}
+.right_col
+{
     float: right;
 }
