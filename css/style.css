@@ -452,7 +452,7 @@ h1:after
 {
     padding-top: 255px;
 }
-.date1 time
+.date1  time
 {
     float: left;
     color: grey;
@@ -464,4 +464,16 @@ h1:after
     width: 253px;
     height: 118px;
     padding-top: 22px;
+}
+.date1
+{
+    padding-right: 68px;
+}
+.date3 time
+{
+    float: right;
+}
+.date3
+{
+    float: right;
 }
