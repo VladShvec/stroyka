@@ -319,7 +319,7 @@ li:hover
 section
 {
    
-    height: 400px;
+    height:400px;
 }
 .op
 {
@@ -367,8 +367,11 @@ h3
 }
 .circle
 {
+    
     position: absolute;
     padding-left: 900px;
+    
+    /*-moz-padding-left:453px;*/
 }
 .main_content
 {
@@ -434,4 +437,31 @@ h1:after
 {
     padding-top: 17px;
     padding-bottom: 27px;
+}
+.news
+{
+    font-size: 24px;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #000;
+    float: left;
+    padding-top: 12px;
+    
+}
+.padding
+{
+    padding-top: 255px;
+}
+.date1 time
+{
+    float: left;
+    color: grey;
+    padding-right: 2px; 
+}
+.pl
+{
+   
+    width: 253px;
+    height: 118px;
+    padding-top: 22px;
 }
