@@ -375,7 +375,11 @@ h3
     column-count: 1;
     column-width: 428px;
 }
-.main_content h1
+.pad
+{
+    padding-right: 20px;
+}
+.main_content  h1
 {
     text-transform: uppercase;
     padding: 0px 52px 36px 0px;
@@ -389,7 +393,7 @@ h1:after
     content: '';
     clear: both;
 }
-.main_content .ftext , .rcol
+.main_content .ftext , .rcol , .ftext2
 {
     width: 428px;
     
@@ -406,4 +410,28 @@ h1:after
 .right_col
 {
     float: right;
+    
+}
+.rr
+{
+    width: 428px;
+    float: left;
+    display: inline-block;
+    padding-bottom: 136px;
+}
+.main_content .pad
+{
+    padding-right: 59px;
+}
+.mmm
+{
+    float: right;
+    padding: 37px 0px 25px 76px;
+    font-size: 22px;
+    line-height: normal;
+}
+.line
+{
+    padding-top: 17px;
+    padding-bottom: 27px;
 }
