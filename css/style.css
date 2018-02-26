@@ -86,7 +86,7 @@ header
     border-radius: 10px 10px 10px 10px;
     width: 278px;
     height: 35px;
-    position: relative;
+    position: absolute;
     top: 106px;
     left:475px;
 }
@@ -122,9 +122,9 @@ header
    border-radius: 10px 10px 10px 10px;
    width: 178px;
    height: 35px;
-   position: relative;
-    top: 107px;
-    left: 558px;
+   position: absolute;
+    top: 143px;
+    left: 709px;
 }
 #kotedji:hover
 {
@@ -154,9 +154,9 @@ header
    border-radius: 10px 10px 10px 10px;
    width: 178px;
    height: 35px;
-   position: relative;
-    top:154px;
-    left: 423px;
+   position: absolute;
+    top: 263px;
+    left: 783px;
 }
 #obor:hover
 {
@@ -185,8 +185,8 @@ header
     border-radius: 10px 10px 10px 10px;
     width: 276;
     height: 35px;
-    position: relative;
-    top: 107px;
+    position: absolute;
+    top: 143px;
     left: 240px;
     
 }
@@ -217,10 +217,10 @@ header
     border-radius: 10px 10px 10px 10px;
     width: 170px;
     height: 12px;
-    position: relative;
+    position:absolute;
     text-align: left;
     padding-bottom: 30px;
-    top: 123px;
+    top: 198px;
     left: 190px;
     
     
@@ -239,7 +239,7 @@ header
 	border-top: 20px solid #fff;
     display: block;
     position: absolute;
-    top:50px;
+    bottom: -20px;
     left: 10%;
 }
 #land
@@ -252,7 +252,7 @@ header
     border-radius: 10px 10px 10px 10px;
     width: 178px;
     height: 35px;
-    position: relative;
+    position: absolute;
     top: 351px;
 }
 #land:hover
@@ -282,9 +282,9 @@ header
     border-radius: 10px 10px 10px 10px;
     width: 178px;
     height: 35px;
-    position: relative;
-    top: 99px;
-    left: 572px;
+    position: absolute;
+    top: 198px;
+    left: 733px;
     
     
 }
@@ -304,6 +304,13 @@ header
     position: absolute;
     top:30px;
     left: 10%;
+}
+.logo
+{
+    width: 84px;
+    height: 76px;
+    position: absolute;
+    left: 355px;
 }
 h1
 {
