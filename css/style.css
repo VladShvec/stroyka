@@ -76,25 +76,23 @@ header
     font-weight: bold;
     display: inline-block;
 }
-#strdoma
+header nav a
 {
-    color: #000;
+     color: #000;
     display: inline-block;
-    font-size: 23px;
-    line-height: normal;
     text-align: center;
+     line-height: normal;
     border-radius: 10px 10px 10px 10px;
-    width: 278px;
-    height: 35px;
     position: absolute;
-    top: 106px;
-    left:475px;
 }
-#strdoma:hover
+
+header nav a:hover
 {
     background-color: #fff;   
+    text-decoration: none;
 }
-#strdoma:hover::after
+
+header nav a:hover::after
 {
     content: "";
     width: 0;
@@ -104,120 +102,60 @@ header
 	border-top: 20px solid #fff;
     display: block;
     position: absolute;
-    top:30px;
+    top:34px;
     left: 10%;
     
       
     
 
+
 }
+#strdoma
+{
+    font-size: 23px;
+    min-width: 278px;
+    min-height: 35px;
+    position: absolute;
+    top: 106px;
+    left:475px;
+}
+
 
 #kotedji
 {
-   display: inline-block;
-   font-size: 20px;
-   line-height: normal; 
-   color: #000;
-   text-align: center;
-   border-radius: 10px 10px 10px 10px;
-   width: 178px;
-   height: 35px;
-   position: absolute;
-    top: 143px;
-    left: 709px;
-}
-#kotedji:hover
-{
-   background-color: #fff;
   
+   font-size: 20px; 
+   min-width: 178px;
+   min-height: 35px;
+   top: 143px;
+   left: 709px;
 }
-#kotedji:hover::after
-{
-    content: "";
-    width: 0;
-	height: 0;
-	border-left: 0px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 20px solid #fff;
-    display: block;
-    position: absolute;
-    top:30px;
-    left: 10%;
-}
+
 #obor
 {
-   display: inline-block;
+   
    font-size: 18px;
-   line-height: normal; 
-   color: #000;
-   text-align: center;
-   border-radius: 10px 10px 10px 10px;
-   width: 178px;
-   height: 35px;
-   position: absolute;
+   min-width: 178px;
+   min-height: 35px;
     top: 263px;
     left: 783px;
 }
-#obor:hover
-{
-   background-color: #fff;
-}
-#obor:hover::after
-{
-    content: "";
-    width: 0;
-	height: 0;
-	border-left: 0px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 20px solid #fff;
-    display: block;
-    position: absolute;
-    top:30px;
-    left: 10%;
-}
 #repom
 {
-   display: inline-block; 
-   font-size: 16px;
-   line-height: normal; 
-   color: #000;
-    text-align: center;
-    border-radius: 10px 10px 10px 10px;
-    width: 276;
-    height: 35px;
-    position: absolute;
+  
+   font-size: 16px;   
+    min-width: 276;
+    min-height: 35px;
     top: 143px;
     left: 240px;
     
 }
-#repom:hover
-{
-    background-color: #fff;
-}
-#repom:hover::after
-{
-    content: "";
-    width: 0;
-	height: 0;
-	border-left: 0px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 20px solid #fff;
-    display: block;
-    position: absolute;
-    top:30px;
-    left: 10%;
-}
+
 #strbani
 {
-    display: inline-block;
     font-size: 17px;
-    line-height: normal;
-    color:#000;
-    text-align: center;
-    border-radius: 10px 10px 10px 10px;
-    width: 170px;
-    height: 12px;
-    position:absolute;
+    min-width: 170px;
+    min-height: 12px;
     text-align: left;
     padding-bottom: 30px;
     top: 198px;
@@ -225,86 +163,31 @@ header
     
     
 }
-#strbani:hover
-{
-     background-color: #fff;
-}
-#strbani:hover::after
-{
-    content: "";
-    width: 0;
-	height: 0;
-	border-left: 0px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 20px solid #fff;
-    display: block;
-    position: absolute;
-    bottom: -20px;
-    left: 10%;
-}
 #land
 {
-    display: inline-block;
+   
    font-size: 23px;
-   line-height: normal; 
-   color: #000;
-    text-align: center;
-    border-radius: 10px 10px 10px 10px;
-    width: 178px;
-    height: 35px;
-    position: absolute;
-    top: 351px;
+  
+    min-height:  34px;
+    min-width: 35px;
+    top: 439px;
+    left: 532px;
 }
-#land:hover
-{
-     background-color: #fff;
-}
-#land:hover::after
- {
-    content: "";
-    width: 0;
-	height: 0;
-	border-left: 0px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 20px solid #fff;
-    display: block;
-    position: absolute;
-    top:30px;
-    left: 10%;
-}
+
 #kol
 {
-   display: inline-block;
-   text-align: center;
+   
    font-size: 22px;
-   line-height: normal; 
-   color: #000;
-    border-radius: 10px 10px 10px 10px;
+   
     width: 178px;
     height: 35px;
-    position: absolute;
+    
     top: 198px;
     left: 733px;
     
     
 }
-#kol:hover
-{
-     background-color: #fff;
-}
-#kol:hover::after
- {
-    content: "";
-    width: 0;
-	height: 0;
-	border-left: 0px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 20px solid #fff;
-    display: block;
-    position: absolute;
-    top:30px;
-    left: 10%;
-}
+
 .logo
 {
     width: 84px;
@@ -342,7 +225,7 @@ padding-left: 62px;
 {
     padding-bottom: 18px;
 }
-li:hover
+a:hover
 {
     text-decoration: underline;
 }
