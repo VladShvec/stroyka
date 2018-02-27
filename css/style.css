@@ -55,6 +55,7 @@ header
 {
     width: 247px;
     height: 58px;
+    font-family: "Times New Roman";
     display: inline-block;
     left: 182px;
     top: 508px;
@@ -63,6 +64,7 @@ header
 }
 .statyi span
 {
+     font-family: "Times New Roman";
     color: #a60202;
     font-size: 48px;
     line-height: normal;
@@ -78,7 +80,8 @@ header
 }
 header nav a
 {
-     color: #000;
+    font-family: 'Georgia'; 
+    color: #000;
     display: inline-block;
     text-align: center;
      line-height: normal;
@@ -102,7 +105,7 @@ header nav a:hover::after
 	border-top: 20px solid #fff;
     display: block;
     position: absolute;
-    top:34px;
+    bottom: -20px;
     left: 10%;
     
       
@@ -224,6 +227,12 @@ padding-left: 62px;
 .level1 li
 {
     padding-bottom: 18px;
+}
+.level1 li a
+{
+    color: #6e508f;
+    font-family:" Arial";
+    font-size: 20px;
 }
 a:hover
 {
