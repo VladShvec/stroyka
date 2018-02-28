@@ -445,29 +445,62 @@ footer
 footer nav
 {
     padding-top: 130px;
-    padding-left: 136px;
+    padding-left: 117px;
+    padding-right:117px;
     
 }
 footer nav li
 {
     display: inline-block;
-    padding-left: 9px;  
+    padding-left: 9px; 
+    padding-top: 10px;
 }
 footer nav li a {
     color: black;
+    font-family: 'Georgia';
+    font-size: 14px;
    
 }
 .copy
 {
     padding-left: 57px;
-    padding-top: 91px;
+    padding-top: 73px;
         
 }
+.footnav
+{
+  height: 38px;
+    background-color: #fff;
+min-width: 800px;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+}
+.footnav::after
+{
+    content: "";
+    width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    left: 3%;
 
-
-
-
-
+}
+.footnav li:nth-child(1)
+{
+    padding-left: 30px;
+}
+.footnav li:nth-child(6)
+{
+    padding-right: 30px;
+}
+hr
+{
+    margin-bottom: 52px;
+}
 
 
 
