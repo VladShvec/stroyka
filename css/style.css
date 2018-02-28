@@ -11,7 +11,8 @@ body,html
 .wrapper
 {
     position: relative;
-   
+       background-image: url(../image/maket.jpg);
+    
     font-family: "Arial";
     box-sizing: border-box;
     padding-bottom:;
@@ -30,6 +31,7 @@ body,html
 
     
 }
+
 header
 {
     height: 556px;
@@ -53,8 +55,10 @@ header
 }
 .statyi
 {
-    width: 247px;
-    height: 58px;
+    
+
+    width: 221px;
+    height: 48px;
     font-family: "Times New Roman";
     display: inline-block;
     left: 182px;
@@ -208,7 +212,7 @@ h1
     color: #51a60c;
     float: right;
     text-transform: uppercase;
-    padding-bottom: 24px;
+    padding-bottom: 21px;
 }
 h1:after
 {
@@ -222,10 +226,10 @@ clear: right;
 
 section .level1
 {
-padding-top: 109px;
+padding-top: 102px;
 float: left;
 margin-right: 50px;
-padding-left: 62px;
+padding-left: 73px;
 }
 .level1 li
 {
@@ -237,6 +241,7 @@ padding-left: 62px;
     font-family:" Arial";
     font-size: 20px;
     font-weight: bold;
+    line-height: 26px;
 }
 a:hover
 {
@@ -262,18 +267,24 @@ section
 {
    
     height:400px;
+    width: 900px;
+}
+.sec2
+{
+height: 331px;
 }
 .op
-{
+{   
     float: right;
-    margin-top: 64px;
-    width: 376px;
-    height: 174px;
+    margin-top: 52px;
+    width: 330px;
+    height: 176px;
     border: 2px solid #dcdcdc;
     border-radius: 16px 16px 16px 16px;
     border-bottom: 6px solid #2bb500;
     padding: 20px;
     position: relative;
+    left: -41px;
 }
 .op > h3
 {
@@ -284,32 +295,36 @@ section
 }
 
 .level2
-{
-    margin-top: 64px;
-    width: 376px;
-    height: 174px;
+{    margin-top: 52px;
+    width: 329px;
+    height: 176px;
     float: left;
     border: 2px solid #dcdcdc;
     border-radius: 16px 16px 16px 16px;
     border-bottom: 6px solid #2c4098;
     padding: 20px;
-    margin-left: 21px;
+    margin-left: 19px;
 }
 .level2 a
 {
     color: #3366ff;
+    line-height: 21px;
+    padding-left: 5px;
 }
-
+.level2 li:nth-child(1)
+{
+    padding-top: 19px;
+}
 .level2 ul > li:before
 {
-    content: '* ';
+    content: '*  ';
     color: #3366ff;
 }
 h3
 {
     margin-top: -37px;
     background-color: #fff;
-    margin-left: 30px;
+    margin-left: -2px;
     padding: 5px 10px 5px 10px;
     width: 150px;
     font-size: 24px;
@@ -318,13 +333,14 @@ h3
 {
     
     position: absolute;
-    left: 304px;
-    bottom: 124px;
+    left: 260px;
+    bottom: 129px;
 }
 .main_content
 {
     column-count: 1;
     column-width: 428px;
+
 }
 .pad
 {
@@ -368,7 +384,7 @@ h1:after
     width: 428px;
     float: left;
     display: inline-block;
-    padding-bottom: 136px;
+    padding-bottom: 31px;
 }
 .main_content .pad
 {
@@ -377,7 +393,7 @@ h1:after
 .mmm
 {
     float: right;
-    padding: 37px 0px 25px 76px;
+    padding: 37px 0px 18px 76px;
     font-size: 22px;
     line-height: normal;
 }
@@ -393,13 +409,14 @@ h1:after
     text-transform: uppercase;
     color: #000;
     float: left;
-    padding-top: 12px;
+    padding-top: 16px;
     
 }
 .padding
 {
-    padding-top: 255px;
-    padding-bottom: 200px;
+    padding-top: 0px;
+    padding-bottom: 146px;
+    
 }
 .date1  time
 {
@@ -523,7 +540,7 @@ min-width: 800px;
 }
 hr
 {
-    margin-bottom: 52px;
+    margin-bottom: 16px;
 }
 
 
