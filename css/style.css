@@ -473,9 +473,23 @@ footer nav li a {
 }
 .copy
 {
-    padding-left: 57px;
-    padding-top: 73px;
-        
+   padding-top: 17px;
+    padding-left: 20px;
+    font-size: 14px;
+     text-align: left;
+}
+.copycont
+{
+    
+    width: 442px;
+    height: 53px ;
+
+  
+  text-align: center;
+  background: #FFF;
+  opacity: 0.8; 
+    position: absolute;
+    top: 226px;
 }
 .footnav
 {
