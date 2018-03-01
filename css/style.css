@@ -199,12 +199,13 @@ header nav a:hover::after
 {
     width: 513px;
     height: 77px;
-    margin-left: 176px;    
+    margin-left: 183px;    
 }
 .forumph
 {
-    margin-top: 355px;
+    margin-top: -87px;
 }
+
 h1
 {
     font-size: 37px;
