@@ -11,7 +11,7 @@ body,html
 .wrapper
 {
     position: relative;
-       background-image: url(../image/maket.jpg);
+       /*background-image: url(../image/maket.jpg);*/
     
     font-family: "Arial";
     box-sizing: border-box;
@@ -261,6 +261,8 @@ a:hover
 .link  
 {
     text-decoration: underline;
+    color:     #3366ff;
+
 }
 .link:cheaked
 {
@@ -370,6 +372,8 @@ h1:after
 .main_content .ftext , .rcol , .ftext2
 {
     width: 428px;
+    color: #333333;
+    text-align: justify;
     
 }
 .main_content > .right 
@@ -548,6 +552,7 @@ min-width: 800px;
 hr
 {
     margin-bottom: 16px;
+    margin-top: 24px;
 }
 
 
