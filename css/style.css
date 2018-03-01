@@ -203,7 +203,8 @@ header nav a:hover::after
 }
 .forumph
 {
-    margin-top: -87px;
+   margin-top: 270px;
+    margin-left: 22px;
 }
 
 h1
@@ -254,6 +255,7 @@ a:hover
     
     max-width: 500px;
     height: 262px;
+    text-align: justify;
     
 }
 .link  
@@ -293,6 +295,9 @@ height: 331px;
     margin-left: -5px;
     padding-left: 25px;
     position: relative;
+    font-family: 'Georgia';
+    font-size: 24px;
+    
 }
 
 .level2
@@ -314,7 +319,7 @@ height: 331px;
 }
 .level2 li:nth-child(1)
 {
-    padding-top: 19px;
+    padding-top: 8px;
 }
 .level2 ul > li:before
 {
@@ -329,6 +334,7 @@ h3
     padding: 5px 10px 5px 10px;
     width: 150px;
     font-size: 24px;
+    line-height: normal;
 }
 .circle
 {
